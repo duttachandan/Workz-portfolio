@@ -1,0 +1,50 @@
+import React from "react";
+import Logo from "../../assets/img/Logo.png";
+
+const Header = () => {
+  return (
+    <header className="header-section">
+      <div className="container">
+        <nav>
+          <a href="/" className="nav-logo">
+            <img src={Logo} alt="logo of workz" />
+          </a>
+          <button className="navbar-toggler">
+            <span></span>
+          </button>
+          <div className="navbar-collapsed">
+            <ul>
+              <li>
+                <a className="nav-links" href="">
+                  Home +
+                </a>
+              </li>
+              <li>
+                <a className="nav-links" href="">
+                  Projects +
+                </a>
+              </li>
+              <li>
+                <a className="nav-links" href="">
+                  About +
+                </a>
+              </li>
+              <li>
+                <a className="nav-links" href="">
+                  Contact Us +
+                </a>
+              </li>
+            </ul>
+            <div className="nav-btn">
+              <a className="social-md-icon" href="">Linkedin</a>
+              <a className="social-md-icon" href="">Github</a>
+              <a className="social-md-icon" href="">Instagram</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
