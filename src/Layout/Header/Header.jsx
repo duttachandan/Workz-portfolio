@@ -9,13 +9,11 @@ const Header = () => {
           <a href="/" className="nav-logo">
             <img src={Logo} alt="logo of workz" />
           </a>
-          <button className="navbar-toggler">
-            <span></span>
-          </button>
+
           <div className="navbar-collapsed">
             <ul>
               <li>
-                <a className="nav-links" href="">
+                <a className="nav-links active" href="">
                   Home +
                 </a>
               </li>
@@ -36,11 +34,20 @@ const Header = () => {
               </li>
             </ul>
             <div className="nav-btn">
-              <a className="social-md-icon" href="">Linkedin</a>
-              <a className="social-md-icon" href="">Github</a>
-              <a className="social-md-icon" href="">Instagram</a>
+              <a className="social-md-icon" href="">
+                Linkedin
+              </a>
+              <a className="social-md-icon" href="">
+                Github
+              </a>
+              <a className="social-md-icon" href="">
+                Instagram
+              </a>
             </div>
           </div>
+          <button className="navbar-toggler">
+            <span></span>
+          </button>
         </nav>
       </div>
     </header>

@@ -31,6 +31,11 @@ export default function Layout() {
     <>
       <Header />
       <Noise />
+      <div className="overline">
+        <div className="overlay-line"></div>
+        <div className="overlay-line second"></div>
+        <div className="overlay-line third"></div>
+      </div>
       <div className="cursor" ref={cursor}></div>
       <main className="body">
         <Outlet />
