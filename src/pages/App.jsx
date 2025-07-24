@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Banner from "../components/Banner";
-import Curved from "../components/Curved";
+import Myprojects from "../components/Myprojects";
 
 const App = () => {
   return (
     <>
       <Banner />
-      {/* <Curved /> */}
+      <Myprojects />
     </>
   );
 };

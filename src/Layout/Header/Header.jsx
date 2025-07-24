@@ -3,7 +3,11 @@ import Logo from "../../assets/img/Logo.png";
 
 const Header = () => {
   return (
-    <header className="header-section">
+    <header
+      data-aos="fade-down"
+      data-aos-duration="1500"
+      className="header-section"
+    >
       <div className="container">
         <nav>
           <a href="/" className="nav-logo">
