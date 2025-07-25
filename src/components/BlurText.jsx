@@ -79,6 +79,7 @@ const BlurText = ({
 
   return (
     <p
+      data-aos="fade-right"
       ref={ref}
       className={className}
       style={{

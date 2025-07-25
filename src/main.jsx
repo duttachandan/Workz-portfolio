@@ -5,15 +5,15 @@ import { Routes, Route, BrowserRouter } from "react-router";
 
 // Customs Loading
 import Layout from "./Layout/Layout";
+import Loader from "./components/Loader"
 import App from "./pages/App";
 import "./index.css";
 
-function pageLoad() {}
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
-      <Suspense fallback={<div>Loading...</div>}>
+    <BrowserRouter basename="/Workz-portfolio/">
+      <Suspense fallback={<Loader/>}>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<App />} />

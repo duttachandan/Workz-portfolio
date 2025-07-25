@@ -100,7 +100,6 @@ ul {
   width: 0.5px;
   background: rgba(128, 128, 128, 0.1);
   left: 50%;
-  /* opacity: 0.4; */
 }
 
 .second.overlay-line {
@@ -235,10 +234,8 @@ Banner  Section
 
 .banner-section {
   padding: 70px 0 160px;
-  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   position: relative;
   overflow: hidden;
 }
@@ -483,6 +480,101 @@ Circles Section
   font-size: 5rem;
 }
 
+/* 
+============
+MYProject Section
+============
+*/
+
+.card {
+  max-width: 800px;
+  padding: 30px;
+  margin: 0 auto;
+  color: white;
+}
+
+.card-img {
+  border: 1px solid var(--tertiary-color);
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.card-img > img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card-desc {
+  padding: 0 60px;
+}
+
+/* From Uiverse.io by Creatlydev */
+.button {
+  text-decoration: none;
+  display: inline-flex;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.75rem;
+  position: absolute;
+  z-index: 11;
+  bottom: -15px;
+  right: -15px;
+  background: linear-gradient(45deg, var(--primary-color), transparent);
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.button__icon-wrapper {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: var(--primary-color);
+  background-color: #2c2c2cee;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.button:hover .button__icon-wrapper {
+  color: var(--primary-color);
+}
+
+.button__icon-wrapper > .button__icon-svg {
+  filter: drop-shadow(1px 1px 10px var(--primary-color));
+}
+
+.button__icon-svg--copy {
+  position: absolute;
+  transform: translate(-200%, 200%);
+}
+
+.button:hover .button__icon-svg:first-child {
+  transition: transform 0.3s ease-in-out;
+  transform: translate(200%, -200%);
+}
+
+.button:hover .button__icon-svg--copy {
+  transition: transform 0.3s ease-in-out 0.1s;
+  transform: translate(0);
+}
+
+.card-desc > p {
+  color: #8d8d8dee;
+}
+
+.slick-slider.slick-initialized {
+  margin-top: 40px;
+}
+
 @media screen and (max-width: 992px) {
   .title1 {
     font-size: 50px;
@@ -535,7 +627,7 @@ Circles Section
   }
 
   .blur-text {
-    font-size: clamp(1rem, 0.4423rem + 1.9231vw, 3.75rem);
+    font-size: clamp(1.3rem, 0.4423rem + 1.9231vw, 3.75rem);
   }
 
   .services {
@@ -558,16 +650,21 @@ Circles Section
   .circle > h3 {
     font-size: 2.5rem;
   }
+  .card-img > img {
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
   .circle-wrpr {
     flex-wrap: wrap;
   }
   .circle {
     width: 160px;
     height: 160px;
-    /* animation: none; */
   }
   .circles > .circle-wrpr > .circle:nth-child(3),
   .circles > .circle-wrpr > .circle:nth-child(4) {
@@ -597,5 +694,25 @@ Circles Section
     to {
       left: -140%;
     }
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .card-img {
+    padding: 20px;
+  }
+
+  .card-img > img {
+    height: 170px;
+  }
+
+  .card-desc {
+    padding: 0 20px;
+  }
+
+  .button {
+    right: -8px;
   }
 }
