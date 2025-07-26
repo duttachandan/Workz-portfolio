@@ -18,6 +18,7 @@ body,
 html {
   overflow-x: hidden;
   font-family: "Space Grotesk", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -486,28 +487,28 @@ MYProject Section
 ============
 */
 
-.card {
+.project-card {
   max-width: 800px;
   padding: 30px;
   margin: 0 auto;
   color: white;
 }
 
-.card-img {
+.project-card-img {
   border: 1px solid var(--tertiary-color);
   border-radius: 20px;
   padding: 30px;
   margin-bottom: 30px;
   position: relative;
 }
-.card-img > img {
+.project-card-img > img {
   width: 100%;
   height: 500px;
   object-fit: cover;
   border-radius: 20px;
 }
 
-.card-desc {
+.project-card-desc {
   padding: 0 60px;
 }
 
@@ -567,7 +568,7 @@ MYProject Section
   transform: translate(0);
 }
 
-.card-desc > p {
+.project-card-desc > p {
   color: #8d8d8dee;
 }
 
@@ -575,9 +576,29 @@ MYProject Section
   margin-top: 40px;
 }
 
+/* 
+==================
+Magic Bento Section
+==================
+*/
+
+.magic-bento-sec {
+  padding: 140px 0;
+}
+
+/*
+===========
+Footer Section
+===========
+*/
+
+.footer-sec {
+  padding: 140px 0;
+}
+
 @media screen and (max-width: 992px) {
   .title1 {
-    font-size: 50px;
+    font-size: clamp(2.375rem, 1.0577rem + 14.7436vw, 18.75rem);
   }
 
   .col-50 {
@@ -650,7 +671,7 @@ MYProject Section
   .circle > h3 {
     font-size: 2.5rem;
   }
-  .card-img > img {
+  .project-card-img > img {
     height: 300px;
   }
 }
@@ -686,6 +707,11 @@ MYProject Section
   .banner-cntn {
     gap: 0px;
   }
+
+  .cntct-me > span.job-desc {
+    font-size: 140px;
+    transform: translate(-13%, -40%);
+  }
   .services {
     left: 180%;
   }
@@ -696,19 +722,19 @@ MYProject Section
     }
   }
 
-  .card {
+  .project-card {
     padding: 10px;
   }
 
-  .card-img {
+  .project-card-img {
     padding: 20px;
   }
 
-  .card-img > img {
+  .project-card-img > img {
     height: 170px;
   }
 
-  .card-desc {
+  .project-card-desc {
     padding: 0 20px;
   }
 

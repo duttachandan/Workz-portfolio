@@ -39,8 +39,8 @@ const Myprojects = () => {
       <div className="container">
         <Slider {...settings}>
           <div>
-            <a href="" className="card">
-              <div className="card-img">
+            <a href="" className="project-card">
+              <div className="project-card-img">
                 <img src={Image6} alt="" />
                 <a className="button" href="">
                   <span class="button__icon-wrapper">
@@ -72,7 +72,7 @@ const Myprojects = () => {
                   </span>
                 </a>
               </div>
-              <div className="card-desc">
+              <div className="project-card-desc">
                 <h3>EE</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -83,8 +83,8 @@ const Myprojects = () => {
             </a>
           </div>
           <div>
-            <a href="" className="card">
-              <div className="card-img">
+            <a href="" className="project-card">
+              <div className="project-card-img">
                 <img src={Image1} alt="" />
                 <a className="button" href="">
                   <span class="button__icon-wrapper">
@@ -116,7 +116,7 @@ const Myprojects = () => {
                   </span>
                 </a>
               </div>
-              <div className="card-desc">
+              <div className="project-card-desc">
                 <h3>EE</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -127,8 +127,8 @@ const Myprojects = () => {
             </a>
           </div>
           <div>
-            <a href="" className="card">
-              <div className="card-img">
+            <a href="" className="project-card">
+              <div className="project-card-img">
                 <img src={Image2} alt="" />
                 <a className="button" href="">
                   <span class="button__icon-wrapper">
@@ -160,7 +160,7 @@ const Myprojects = () => {
                   </span>
                 </a>
               </div>
-              <div className="card-desc">
+              <div className="project-card-desc">
                 <h3>EE</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -171,8 +171,8 @@ const Myprojects = () => {
             </a>
           </div>
           <div>
-            <a href="" className="card">
-              <div className="card-img">
+            <a href="" className="project-card">
+              <div className="project-card-img">
                 <img src={Image3} alt="" />
                 <a className="button" href="">
                   <span class="button__icon-wrapper">
@@ -204,7 +204,7 @@ const Myprojects = () => {
                   </span>
                 </a>
               </div>
-              <div className="card-desc">
+              <div className="project-card-desc">
                 <h3>EE</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -215,8 +215,8 @@ const Myprojects = () => {
             </a>
           </div>
           <div>
-            <a href="" className="card">
-              <div className="card-img">
+            <a href="" className="project-card">
+              <div className="project-card-img">
                 <img src={Image4} alt="" />
                 <a className="button" href="">
                   <span class="button__icon-wrapper">
@@ -248,7 +248,7 @@ const Myprojects = () => {
                   </span>
                 </a>
               </div>
-              <div className="card-desc">
+              <div className="project-card-desc">
                 <h3>EE</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -259,8 +259,8 @@ const Myprojects = () => {
             </a>
           </div>
           <div>
-            <a href="" className="card">
-              <div className="card-img">
+            <a href="" className="project-card">
+              <div className="project-card-img">
                 <img src={Image5} alt="" />
                 <a className="button" href="">
                   <span class="button__icon-wrapper">
@@ -292,7 +292,7 @@ const Myprojects = () => {
                   </span>
                 </a>
               </div>
-              <div className="card-desc">
+              <div className="project-card-desc">
                 <h3>EE</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.

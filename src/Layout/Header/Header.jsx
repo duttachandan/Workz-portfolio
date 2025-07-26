@@ -7,6 +7,7 @@ const Header = () => {
       data-aos="fade-down"
       data-aos-duration="1500"
       className="header-section"
+      id="header"
     >
       <div className="container">
         <nav>
