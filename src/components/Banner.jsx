@@ -57,14 +57,14 @@ const Banner = () => {
                   </div>
                   <h1 className="title1" ref={addText}></h1>
                 </div>
-                <div className="cntct-me">
+                <div data-aos="fade-down" className="cntct-me">
                   FeelFree To Contact Me
                   <div className="title2">chandan.dutta8372@gmail.com</div>
                   <span className="job-desc">MERN</span>
                 </div>
               </div>
               <div className="col-50">
-                <div className="banner-img">
+                <div data-aos="fade-right" className="banner-img">
                   <img src={Image} alt="Banner Image" />
                 </div>
               </div>
@@ -131,7 +131,7 @@ const Banner = () => {
       </section>
 
       <section id="know-about" className="Knw-abt-me">
-        <div className="knw-me-hdr">
+        <div data-aos="fade-up" className="knw-me-hdr">
           <h2 className="shadow-text">What I do</h2>
           <span className="knw-me">Know Me</span>
         </div>

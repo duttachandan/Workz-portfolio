@@ -30,6 +30,7 @@ const Myprojects = () => {
       },
     ],
   };
+  
   return (
     <section className="myProject-sec">
       <div className="knw-me-hdr">
