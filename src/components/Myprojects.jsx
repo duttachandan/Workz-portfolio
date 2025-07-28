@@ -30,10 +30,10 @@ const Myprojects = () => {
       },
     ],
   };
-  
+
   return (
     <section className="myProject-sec">
-      <div className="knw-me-hdr">
+      <div className="knw-me-hdr" data-aos="fade-up" data-aos-delay="200">
         <h2 className="shadow-text">Projects</h2>
         <span className="knw-me">My Projects</span>
       </div>

@@ -228,6 +228,14 @@ nav {
   font-size: 1.3rem;
 }
 
+.sm-nav-btn {
+  display: none;
+}
+
+.close-nav {
+  display: none;
+}
+
 /*
 =================
 Banner  Section
@@ -493,6 +501,7 @@ MYProject Section
   padding: 30px;
   margin: 0 auto;
   color: white;
+  display: block;
 }
 
 .project-card-img {
@@ -613,7 +622,44 @@ Footer Section
   */
 
   .navbar-collapsed > ul {
-    display: none;
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    padding: 20px 0;
+    height: 100vh;
+    transition: width 0.3s ease-in-out;
+    margin-left: 0 !important;
+    background: black;
+  }
+
+  .close-nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .close-nav > svg {
+    height: 20px;
+    width: 20px;
+  }
+
+  .nav-active {
+    width: 40% !important;
+    z-index: 1000;
+    background: black;
+  }
+
+  .nav-links {
+    text-wrap: nowrap;
   }
 
   .navbar-toggler {
@@ -705,6 +751,33 @@ Footer Section
   .nav-btn {
     display: none;
   }
+  .nav-active {
+    width: 90% !important;
+  }
+
+  .sm-nav-btn {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+  }
+  .social-md-icon {
+    display: flex;
+  }
+
+  .social-md-icon svg {
+    font-size: 22px;
+    color: var(--primary-color);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px var(--primary-color);
+    filter: blur(0.5px);
+  }
+
+  .social-md-icon:hover svg {
+    color: white;
+  }
+
   .banner-cntn {
     gap: 0px;
   }
