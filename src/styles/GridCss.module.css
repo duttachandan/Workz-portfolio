@@ -1,0 +1,272 @@
+.knwMeSkill {
+  max-width: 500px;
+}
+
+.knwMeHdrsec {
+  padding: 40px 0;
+}
+
+.knwMeHdrRow {
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.worksIdohdr {
+  position: static !important;
+  transform: none !important;
+}
+.worksIdohdr {
+  margin: 10px 0;
+}
+
+.worksidoProgBar {
+  margin-top: 20px;
+}
+
+/* Skill Section */
+
+.skillCard {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.skillIcon {
+  width: 80px;
+  height: 80px;
+  transition: all 0.3s linear;
+  border-radius: 50%;
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--secondary-color);
+}
+
+.skillIcon:hover {
+  box-shadow: inset 1px 1px 10px var(--primary-color);
+}
+
+.skillIcon > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 15px;
+  border-radius: 30%;
+}
+
+.worksidoProgBar > .skillCard:first-child > .skillIcon > img {
+  border-radius: 0px !important;
+}
+
+.skillDesc {
+  flex-grow: 2;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.progressbar {
+  width: 100%;
+  height: 10px;
+  border: 1px solid white;
+  position: relative;
+}
+
+.percent {
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  width: 0%;
+  height: 50%;
+  background: var(--primary-color);
+  filter: blur(1px);
+  animation: slideRight 4s linear forwards;
+}
+
+@keyframes slideRight {
+  to {
+    width: var(--width);
+  }
+}
+
+.totalExperience {
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 10px var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.totalExptitle {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 40px;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.company {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.companyDetails {
+  justify-content: space-between;
+  align-items: start;
+  margin: 0 -15px 50px !important;
+}
+
+.companyName {
+  font-size: 36px;
+  color: #f5f5f5;
+  opacity: 0.5;
+  font-weight: 900;
+  padding: 0 15px;
+  width: 50%;
+  transition: 0.3s linear;
+}
+
+.companyDetails:hover > .companyName {
+  color: var(--primary-color);
+  text-shadow: 0px 0px 10px var(--primary-color);
+}
+
+.designation {
+  text-align: end;
+  padding: 0 15px;
+  width: 50%;
+}
+
+.yearSpend {
+  color: var(--secondary-color);
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.totalSkills {
+  margin: 20px 0 0;
+  padding: 40px;
+  height: 225px;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 10px var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.coverSkills {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  /* Apply the left and right fading mask */
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 50%,
+    black 50%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 50%,
+    black 50%,
+    transparent 100%
+  );
+
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+.skillImage {
+  position: absolute;
+  left: -15%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 80px;
+  width: 80px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all linear 0.5s;
+  padding: 10px;
+  animation: slideLeft infinite 40s;
+  animation-delay: calc(40s / 8 * ((8 - var(--i)) * -1));
+}
+
+@keyframes slideLeft {
+  to {
+    left: 120%;
+  }
+}
+
+.skillImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.coverSkills:hover > .skillImage {
+  animation-play-state: paused;
+}
+
+.skillImage:hover {
+  transform: scale(1.1) translateY(-40px);
+}
+
+@media screen and (max-width: 1200px) {
+  .companyName {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .knwMeSkill {
+    margin-bottom: 30px;
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .skillIcon {
+    width: 50px;
+    height: 50px;
+  }
+  .skillIcon > img {
+    padding: 5px;
+  }
+  .totalExperience {
+    padding: 25px 15px;
+  }
+  .totalExptitle {
+    font-size: 16px;
+  }
+  .companyName {
+    font-size: 20px;
+  }
+  .yearSpend {
+    font-size: 12px;
+  }
+  .totalSkills {
+    padding: 15px;
+    height: 100px;
+  }
+  .skillImage {
+    height: 40px;
+    width: 40px;
+  }
+
+  @keyframes slideLeft {
+    to {
+      left: 120%;
+    }
+  }
+}

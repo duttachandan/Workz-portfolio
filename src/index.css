@@ -77,8 +77,18 @@ ul {
   margin: 0 -15px;
 }
 
+.col-20 {
+  width: 20%;
+  padding: 0 15px;
+}
+
 .col-25 {
   width: 25%;
+  padding: 0 15px;
+}
+
+.col-40 {
+  width: 40%;
   padding: 0 15px;
 }
 
@@ -396,6 +406,7 @@ section.knw-abt-me,
   position: relative;
 }
 
+
 .shadow-text {
   text-align: center;
   font-size: clamp(2.375rem, 1.0577rem + 14.7436vw, 18.75rem);
@@ -615,6 +626,10 @@ Footer Section
     width: 100%;
   }
 
+  .col-40 {
+    width: 50%;
+  }
+
   /* 
   ==============
   Navbar Section
@@ -623,6 +638,7 @@ Footer Section
 
   .navbar-collapsed > ul {
     width: 0;
+    opacity: 0;
     overflow: hidden;
     position: absolute;
     flex-direction: column;
@@ -630,15 +646,15 @@ Footer Section
     right: 0;
     padding: 20px 0;
     height: 100vh;
-    transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
     margin-left: 0 !important;
     background: black;
   }
 
   .close-nav {
     display: flex;
-    margin-left: auto;
-    margin-right: 25px;
+    margin-left: 25px;
+    margin-right: auto;
     border: 1px solid white;
     border-radius: 50%;
     height: 30px;
@@ -653,9 +669,9 @@ Footer Section
   }
 
   .nav-active {
-    width: 40% !important;
+    width: 60% !important;
     z-index: 1000;
-    background: black;
+    opacity: 1 !important;
   }
 
   .nav-links {
@@ -724,6 +740,9 @@ Footer Section
 }
 
 @media screen and (max-width: 768px) {
+  .col-40 {
+    width: 100%;
+  }
   .cursor {
     display: none;
   }
@@ -801,7 +820,7 @@ Footer Section
   }
 
   .project-card-img {
-    padding: 20px;
+    padding: 12px;
   }
 
   .project-card-img > img {
