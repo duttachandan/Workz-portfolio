@@ -406,7 +406,6 @@ section.knw-abt-me,
   position: relative;
 }
 
-
 .shadow-text {
   text-align: center;
   font-size: clamp(2.375rem, 1.0577rem + 14.7436vw, 18.75rem);
@@ -785,12 +784,13 @@ Footer Section
   }
 
   .social-md-icon svg {
-    font-size: 22px;
+    font-size: 29px;
     color: var(--primary-color);
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 1px 1px 10px var(--primary-color);
     filter: blur(0.5px);
+    padding: 3px;
   }
 
   .social-md-icon:hover svg {

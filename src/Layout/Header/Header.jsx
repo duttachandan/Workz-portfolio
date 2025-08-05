@@ -3,9 +3,9 @@ import Logo from "../../assets/img/Logo.png";
 
 // FA icons
 
-import { FaLinkedin } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
+import { RiLinkedinLine } from "react-icons/ri";
+import { SiInstagram } from "react-icons/si";
+import { PiGithubLogoFill } from "react-icons/pi";
 import { RxCross1 } from "react-icons/rx";
 
 const Header = () => {
@@ -57,25 +57,49 @@ const Header = () => {
               </li>
             </ul>
             <div className="nav-btn" ref={navBtnRef}>
-              <a className="social-md-icon" href="">
+              <a
+                className="social-md-icon"
+                target="_blank"
+                href="https://www.linkedin.com/in/chandan-dutta-b2a778170/"
+              >
                 Linkedin
               </a>
-              <a className="social-md-icon" href="">
+              <a
+                className="social-md-icon"
+                target="_blank"
+                href="https://github.com/duttachandan"
+              >
                 Github
               </a>
-              <a className="social-md-icon" href="">
+              <a
+                className="social-md-icon"
+                target="_blank"
+                href="https://www.instagram.com/I_m_chandan_dutta"
+              >
                 Instagram
               </a>
             </div>
             <div className="sm-nav-btn" ref={navBtnRef}>
-              <a className="social-md-icon" href="">
-                <FaLinkedin />
+              <a
+                className="social-md-icon"
+                target="_blank"
+                href="https://www.linkedin.com/in/chandan-dutta-b2a778170/"
+              >
+                <RiLinkedinLine />
               </a>
-              <a className="social-md-icon" href="">
-                <FaGithub />
+              <a
+                className="social-md-icon"
+                target="_blank"
+                href="https://github.com/duttachandan"
+              >
+                <PiGithubLogoFill />
               </a>
-              <a className="social-md-icon" href="">
-                <FaSquareInstagram />
+              <a
+                className="social-md-icon"
+                target="_blank"
+                href="https://www.instagram.com/I_m_chandan_dutta"
+              >
+                <SiInstagram />
               </a>
             </div>
           </div>

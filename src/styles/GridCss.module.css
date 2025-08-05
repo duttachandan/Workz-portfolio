@@ -2,6 +2,10 @@
   max-width: 500px;
 }
 
+.knwMeSkill > p {
+  color: #8d8d8dee;
+}
+
 .knwMeHdrsec {
   padding: 40px 0;
 }
@@ -69,10 +73,14 @@
   text-transform: uppercase;
 }
 
+.skills > span {
+  color: #bdbdbd;
+}
+
 .progressbar {
   width: 100%;
   height: 10px;
-  border: 1px solid white;
+  border: 1px solid var(--secondary-color);
   position: relative;
 }
 
