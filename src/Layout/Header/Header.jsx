@@ -10,8 +10,23 @@ import { RxCross1 } from "react-icons/rx";
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [isOpen, setIsOpen] = useState();
+  // const [isOpen, setIsOpen] = useState();
   const navBtnRef = useRef();
+
+  useEffect(() => {
+    if (isNavOpen) {
+      document.body.style.overflow = "hidden"; // Prevent scrolling
+      document.documentElement.style.overflow = "hidden"; // <-- add this
+    } else {
+      document.body.style.overflow = ""; // Restore default scroll
+      document.documentElement.style.overflow = ""; // <-- add this
+    }
+
+    // Optional cleanup in case component unmounts while menu is open
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isNavOpen]);
 
   function handleNavToggle() {
     setIsNavOpen((prev) => !prev);
@@ -46,7 +61,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a className="nav-links" href="">
+                <a className="nav-links" href="#know-about">
                   About +
                 </a>
               </li>
@@ -105,7 +120,7 @@ const Header = () => {
           </div>
 
           <button
-            className={`navbar-toggler ${isOpen ? "open" : ""}`}
+            className={`navbar-toggler ${isNavOpen ? "open" : ""}`}
             onClick={handleNavToggle}
           >
             <span></span>
