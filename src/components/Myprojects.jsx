@@ -16,7 +16,7 @@ const Myprojects = () => {
     speed: 800,
     centerMode: true,
     slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
@@ -43,13 +43,13 @@ const Myprojects = () => {
             <a href="" className="project-card">
               <div className="project-card-img">
                 <img src={Image6} alt="" />
-                <a className="button" href="">
-                  <span class="button__icon-wrapper">
+                <span role="button" className="button">
+                  <span className="button__icon-wrapper">
                     <svg
                       viewBox="0 0 14 15"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg"
+                      className="button__icon-svg"
                       width="25"
                     >
                       <path
@@ -63,7 +63,7 @@ const Myprojects = () => {
                       fill="none"
                       width="25"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg button__icon-svg--copy"
+                      className="button__icon-svg button__icon-svg--copy"
                     >
                       <path
                         d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
@@ -71,7 +71,7 @@ const Myprojects = () => {
                       ></path>
                     </svg>
                   </span>
-                </a>
+                </span>
               </div>
               <div className="project-card-desc">
                 <h3>EE</h3>
@@ -87,13 +87,13 @@ const Myprojects = () => {
             <a href="" className="project-card">
               <div className="project-card-img">
                 <img src={Image1} alt="" />
-                <a className="button" href="">
-                  <span class="button__icon-wrapper">
+                <span role="button" className="button">
+                  <span className="button__icon-wrapper">
                     <svg
                       viewBox="0 0 14 15"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg"
+                      className="button__icon-svg"
                       width="25"
                     >
                       <path
@@ -107,7 +107,7 @@ const Myprojects = () => {
                       fill="none"
                       width="25"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg button__icon-svg--copy"
+                      className="button__icon-svg button__icon-svg--copy"
                     >
                       <path
                         d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
@@ -115,7 +115,7 @@ const Myprojects = () => {
                       ></path>
                     </svg>
                   </span>
-                </a>
+                </span>
               </div>
               <div className="project-card-desc">
                 <h3>EE</h3>
@@ -131,13 +131,13 @@ const Myprojects = () => {
             <a href="" className="project-card">
               <div className="project-card-img">
                 <img src={Image2} alt="" />
-                <a className="button" href="">
-                  <span class="button__icon-wrapper">
+                <span className="button" role="button">
+                  <span className="button__icon-wrapper">
                     <svg
                       viewBox="0 0 14 15"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg"
+                      className="button__icon-svg"
                       width="25"
                     >
                       <path
@@ -151,7 +151,7 @@ const Myprojects = () => {
                       fill="none"
                       width="25"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg button__icon-svg--copy"
+                      className="button__icon-svg button__icon-svg--copy"
                     >
                       <path
                         d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
@@ -159,7 +159,7 @@ const Myprojects = () => {
                       ></path>
                     </svg>
                   </span>
-                </a>
+                </span>
               </div>
               <div className="project-card-desc">
                 <h3>EE</h3>
@@ -175,13 +175,13 @@ const Myprojects = () => {
             <a href="" className="project-card">
               <div className="project-card-img">
                 <img src={Image3} alt="" />
-                <a className="button" href="">
-                  <span class="button__icon-wrapper">
+                <span className="button" role="button">
+                  <span className="button__icon-wrapper">
                     <svg
                       viewBox="0 0 14 15"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg"
+                      className="button__icon-svg"
                       width="25"
                     >
                       <path
@@ -195,7 +195,7 @@ const Myprojects = () => {
                       fill="none"
                       width="25"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg button__icon-svg--copy"
+                      className="button__icon-svg button__icon-svg--copy"
                     >
                       <path
                         d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
@@ -203,7 +203,7 @@ const Myprojects = () => {
                       ></path>
                     </svg>
                   </span>
-                </a>
+                </span>
               </div>
               <div className="project-card-desc">
                 <h3>EE</h3>
@@ -219,13 +219,13 @@ const Myprojects = () => {
             <a href="" className="project-card">
               <div className="project-card-img">
                 <img src={Image4} alt="" />
-                <a className="button" href="">
-                  <span class="button__icon-wrapper">
+                <span className="button" role="button">
+                  <span className="button__icon-wrapper">
                     <svg
                       viewBox="0 0 14 15"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg"
+                      className="button__icon-svg"
                       width="25"
                     >
                       <path
@@ -239,7 +239,7 @@ const Myprojects = () => {
                       fill="none"
                       width="25"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg button__icon-svg--copy"
+                      className="button__icon-svg button__icon-svg--copy"
                     >
                       <path
                         d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
@@ -247,7 +247,7 @@ const Myprojects = () => {
                       ></path>
                     </svg>
                   </span>
-                </a>
+                </span>
               </div>
               <div className="project-card-desc">
                 <h3>EE</h3>
@@ -263,13 +263,13 @@ const Myprojects = () => {
             <a href="" className="project-card">
               <div className="project-card-img">
                 <img src={Image5} alt="" />
-                <a className="button" href="">
-                  <span class="button__icon-wrapper">
+                <span className="button" role="button">
+                  <span className="button__icon-wrapper">
                     <svg
                       viewBox="0 0 14 15"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg"
+                      className="button__icon-svg"
                       width="25"
                     >
                       <path
@@ -283,7 +283,7 @@ const Myprojects = () => {
                       fill="none"
                       width="25"
                       xmlns="http://www.w3.org/2000/svg"
-                      class="button__icon-svg button__icon-svg--copy"
+                      className="button__icon-svg button__icon-svg--copy"
                     >
                       <path
                         d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
@@ -291,7 +291,7 @@ const Myprojects = () => {
                       ></path>
                     </svg>
                   </span>
-                </a>
+                </span>
               </div>
               <div className="project-card-desc">
                 <h3>EE</h3>

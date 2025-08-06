@@ -710,7 +710,7 @@ Footer Section
   }
 
   .blur-text {
-    font-size: clamp(1.3rem, 0.4423rem + 1.9231vw, 3.75rem);
+    font-size: clamp(0.8rem, 0.4423rem + 1.9231vw, 3.75rem);
   }
 
   .services {
@@ -781,16 +781,13 @@ Footer Section
   }
   .social-md-icon {
     display: flex;
-  }
-
-  .social-md-icon svg {
-    font-size: 29px;
+    font-size: 20px;
     color: var(--primary-color);
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 1px 1px 10px var(--primary-color);
     filter: blur(0.5px);
-    padding: 3px;
+    padding: 5px;
   }
 
   .social-md-icon:hover svg {

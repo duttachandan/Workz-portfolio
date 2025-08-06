@@ -9,10 +9,17 @@ import { TbBrandReactNative } from "react-icons/tb";
 import { SiNextdotjs } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 
+
 const Banner = () => {
   let DeveloperName = "Chandan Dutta.";
   const [spaceValue, setSpaceValue] = useState();
   const addText = useRef();
+
+  const AboutMe = `I'm a Frontend Developer with 2.5+ years of experience building modern web apps using React.js, Node.js, MongoDB, and JavaScript. I'm passionate about clean, user-friendly interfaces and love turning Figma designs into responsive code.
+
+Coming from a family of entrepreneurs, I'm always seeking new challenges and learning opportunities. Currently, I'm exploring NestJS and improving my DSA skills. I work as a Technical Analyst at Webskitters Academy, and my long-term goal is to launch a startup that promotes a healthier, more balanced work culture.
+
+Let’s connect!`;
 
   useEffect(() => {
     const chars = DeveloperName.split("");
@@ -137,7 +144,7 @@ const Banner = () => {
         </div>
         <div className="container">
           <BlurText
-            text="working as entrepreneur to turn ideas into reality by the developing products, the design fixes, and the no-code technologies."
+            text={AboutMe}
             delay={150}
             animateBy="words"
             direction="top"

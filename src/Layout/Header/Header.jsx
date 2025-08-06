@@ -1,16 +1,17 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link, NavLink } from "react-router";
 import Logo from "../../assets/img/Logo.png";
 
 // FA icons
 
 import { RiLinkedinLine } from "react-icons/ri";
-import { SiInstagram } from "react-icons/si";
+// import { SiInstagram } from "react-icons/si";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { RxCross1 } from "react-icons/rx";
+import { BsInstagram } from "react-icons/bs";
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  // const [isOpen, setIsOpen] = useState();
   const navBtnRef = useRef();
 
   useEffect(() => {
@@ -32,6 +33,12 @@ const Header = () => {
     setIsNavOpen((prev) => !prev);
   }
 
+  function handleNavLinks() {
+    if (isNavOpen === true) {
+      setIsNavOpen((prev) => !prev);
+    }
+  }
+
   return (
     <header
       data-aos="fade-down"
@@ -41,9 +48,9 @@ const Header = () => {
     >
       <div className="container">
         <nav>
-          <a href="/" className="nav-logo">
+          <NavLink to="/" className="nav-logo">
             <img src={Logo} alt="logo of workz" />
-          </a>
+          </NavLink>
 
           <div className="navbar-collapsed">
             <ul className={`${isNavOpen ? "nav-active" : ""}`}>
@@ -51,44 +58,71 @@ const Header = () => {
                 <RxCross1 />
               </li>
               <li>
-                <a className="nav-links active" href="">
+                <NavLink
+                  onClick={handleNavLinks}
+                  className={`nav-links ${({ isActive }) =>
+                    isActive ? "active" : ""}`}
+                  to="/"
+                >
                   Home +
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a className="nav-links" href="">
+                <NavLink
+                  onClick={handleNavLinks}
+                  className={`nav-links ${({ isActive }) =>
+                    isActive ? "active" : ""}`}
+                  to="/projects"
+                >
                   Projects +
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a className="nav-links" href="#know-about">
+                <NavLink
+                  onClick={handleNavLinks}
+                  className={`nav-links ${({ isActive }) =>
+                    isActive ? "active" : ""}`}
+                  to="about"
+                >
                   About +
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a className="nav-links" href="">
+                <NavLink
+                  onClick={handleNavLinks}
+                  className={`nav-links ${({ isActive }) =>
+                    isActive ? "active" : ""}
+                  }`}
+                  to="contact"
+                >
                   Contact Us +
-                </a>
+                </NavLink>
               </li>
             </ul>
             <div className="nav-btn" ref={navBtnRef}>
               <a
+                onClick={handleNavLinks}
                 className="social-md-icon"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/chandan-dutta-b2a778170/"
               >
                 Linkedin
               </a>
               <a
+                onClick={handleNavLinks}
                 className="social-md-icon"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/duttachandan"
               >
                 Github
               </a>
               <a
+                onClick={handleNavLinks}
                 className="social-md-icon"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/I_m_chandan_dutta"
               >
                 Instagram
@@ -96,25 +130,31 @@ const Header = () => {
             </div>
             <div className="sm-nav-btn" ref={navBtnRef}>
               <a
+                onClick={handleNavLinks}
                 className="social-md-icon"
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://www.linkedin.com/in/chandan-dutta-b2a778170/"
               >
                 <RiLinkedinLine />
               </a>
               <a
+                onClick={handleNavLinks}
                 className="social-md-icon"
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://github.com/duttachandan"
               >
                 <PiGithubLogoFill />
               </a>
               <a
+                onClick={handleNavLinks}
                 className="social-md-icon"
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://www.instagram.com/I_m_chandan_dutta"
               >
-                <SiInstagram />
+                <BsInstagram />
               </a>
             </div>
           </div>
