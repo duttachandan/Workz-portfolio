@@ -97,6 +97,11 @@ ul {
   padding: 0 15px;
 }
 
+.col-60 {
+  width: 60%;
+  padding: 0 15px;
+}
+
 .overline {
   position: fixed;
   height: 100%;
@@ -613,7 +618,7 @@ Footer Section
 */
 
 .footer-sec {
-  padding: 140px 0;
+  padding: 140px 0 20px;
   position: relative;
   z-index: 11;
 }
@@ -629,6 +634,14 @@ Footer Section
 
   .col-40 {
     width: 50%;
+  }
+
+  .col-60 {
+    width: 100%;
+  }
+
+  .col-25 {
+    width: 100%;
   }
 
   /* 
@@ -744,7 +757,7 @@ Footer Section
     padding: 40px 0;
   }
   .footer-bottom {
-    padding: 20px 30px;
+    padding: 20px 15px;
   }
 }
 
