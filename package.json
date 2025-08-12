@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@fancyapps/ui": "^6.0.22",
     "framer-motion": "^12.23.6",
     "gsap": "^3.13.0",
     "react": "^19.1.0",

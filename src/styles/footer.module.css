@@ -1,5 +1,6 @@
 .footerBottom {
   border-top: 2px solid var(--secondary-color);
+  max-width: 1140px !important;
 }
 
 .bottomwrpr {
@@ -12,8 +13,8 @@
 }
 
 .footerLinks > a {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   border: 2px solid var(--secondary-color);
   border-radius: 50%;
   padding: 10px;
@@ -23,7 +24,7 @@
 .footerLinks > a > span {
   height: 100%;
   width: 100%;
-  font-size: 32px;
+  font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,4 +32,36 @@
   backdrop-filter: blur(40px);
   color: var(--primary-color);
   border-radius: 50%;
+}
+
+.footerInLinks {
+  display: flex;
+  margin-top: 30px;
+}
+
+.footerInLinks > li + li::before {
+  content: "/";
+  margin: 0 10px;
+}
+
+.footerInLinks > li > a {
+  color: #ffff;
+}
+
+.footerInLinks > li > a:hover {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 576px) {
+  .footerLinks {
+    margin: 0 -15px;
+  }
+  .footerInLinks > li + li::before {
+    display: none;
+  }
+  .footerInLinks {
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px -15px;
+  }
 }

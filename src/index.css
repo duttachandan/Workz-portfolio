@@ -614,6 +614,8 @@ Footer Section
 
 .footer-sec {
   padding: 140px 0;
+  position: relative;
+  z-index: 11;
 }
 
 @media screen and (max-width: 992px) {
@@ -735,6 +737,14 @@ Footer Section
   }
   .project-card-img > img {
     height: 300px;
+  }
+
+  /* Footer Section */
+  .footer-sec {
+    padding: 40px 0;
+  }
+  .footer-bottom {
+    padding: 20px 30px;
   }
 }
 
