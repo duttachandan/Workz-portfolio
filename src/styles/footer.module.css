@@ -1,5 +1,5 @@
 .footerBottom {
-  border-top: 2px solid var(--secondary-color);
+  border-top: 1px solid var(--secondary-color);
   max-width: 1240px !important;
 }
 
@@ -75,9 +75,11 @@
 }
 
 .copyright {
-  border-top: 2px solid var(--secondary-color);
+  border-top: 1px solid var(--secondary-color);
   text-align: center;
   padding-top: 30px;
+  margin: 0 -15px;
+  color: var(--secondary-color);
 }
 
 .copyright > a {

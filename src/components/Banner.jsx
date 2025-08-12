@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Image from "../assets/img/banner.png";
+import Scroll from "../assets/img/scroll-down.png";
+import Pdf from "../assets/Chandan.pdf";
 
 import BlurText from "../components/BlurText";
 
@@ -8,7 +10,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiNextdotjs } from "react-icons/si";
 import { SiMui } from "react-icons/si";
-
+import { BsDownload } from "react-icons/bs";
 
 const Banner = () => {
   let DeveloperName = "Chandan Dutta.";
@@ -73,6 +75,12 @@ Let’s connect!`;
               <div className="col-50">
                 <div data-aos="fade-right" className="banner-img">
                   <img src={Image} alt="Banner Image" />
+                  <a href={Pdf} download={Pdf} className="banner-pdf">
+                    <span>
+                      <BsDownload />
+                    </span>
+                    Download My Resume
+                  </a>
                 </div>
               </div>
             </div>
@@ -134,6 +142,9 @@ Let’s connect!`;
               </div>
             </div>
           </div>
+        </div>
+        <div className="small-icon">
+          <img src={Scroll} alt="" />
         </div>
       </section>
 

@@ -265,6 +265,25 @@ Banner  Section
   overflow: hidden;
 }
 
+.small-icon {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  animation: slideUp 3s linear infinite;
+}
+
+@keyframes slideUp {
+  0%,
+  100% {
+    transform: translate(-50%, 5px);
+  }
+  50% {
+    transform: translate(-50%, -5px);
+  }
+}
+
 .banner-row {
   align-items: start;
 }
@@ -320,6 +339,37 @@ Banner  Section
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
+}
+
+.banner-pdf {
+  position: absolute;
+  left: 60%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  padding: 10px 50px 10px 20px;
+  border-radius: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid var(--secondary-color);
+  text-wrap: nowrap;
+}
+
+.banner-pdf > span {
+  backdrop-filter: blur(75px);
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 10px var(--primary-color);
 }
 
 .text-glow {
@@ -510,6 +560,10 @@ Circles Section
 MYProject Section
 ============
 */
+
+.myProject-sec {
+  padding: 80px 0;
+}
 
 .project-card {
   max-width: 800px;
@@ -712,6 +766,12 @@ Footer Section
   .banner-img {
     max-width: 340px;
     margin: 40px auto 0;
+  }
+
+  .banner-pdf {
+    left: 50%;
+    top: 75%;
+    font-size:0.8rem;
   }
 
   .cntct-me {

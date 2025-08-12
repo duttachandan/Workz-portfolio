@@ -10,6 +10,7 @@ import "./index.css";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import NotFound from "./components/notFound";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -21,8 +22,8 @@ createRoot(document.getElementById("root")).render(
             <Route path="about" element={<About />} />
             <Route path="projects" element={<Projects />} />
             <Route path="contact" element={<Contact />} />
-            <Route path="*" element={<About />} />
           </Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

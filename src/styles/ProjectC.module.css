@@ -1,0 +1,28 @@
+.projectSec {
+  padding: 70px 0;
+}
+
+.projectHdr {
+  padding: 80px 0;
+  border-bottom: 1px solid var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.3rem;
+}
+
+.projectHdr a {
+  color: white;
+}
+
+.pageName {
+  font-weight: 700;
+  color: var(--primary-color);
+  text-shadow: 1px 1px 10px var(--primary-color);
+}
+
+.projectHdr a:hover {
+  color: var(--primary-color);
+  text-shadow: 1px 1px 10px var(--primary-color);
+}

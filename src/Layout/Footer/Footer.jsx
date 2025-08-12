@@ -109,7 +109,8 @@ const Footer = () => {
             </div>
 
             <div className={`${FooterCSS.copyright}`}>
-              <Link to="/">Copyright © 2025 WDT Workz</Link>
+              Copyright © 2025 {" "}
+              <Link to="/"> CD Workz</Link>
             </div>
           </div>
         </div>
