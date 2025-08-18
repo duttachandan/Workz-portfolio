@@ -26,3 +26,65 @@
   color: var(--primary-color);
   text-shadow: 1px 1px 10px var(--primary-color);
 }
+
+.projectCategories {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.projectStack {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgb(73, 73, 73);
+  border-radius: 5px;
+  backdrop-filter: blur(1px);
+  margin: 10px;
+  transition: 0.3s linear;
+}
+
+.projectStack:hover {
+  box-shadow: 1px 1px 10px var(--primary-color);
+  color: var(--primary-color);
+}
+
+.projectItem {
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 300px;
+}
+
+.CardImage > a {
+  right: 50%;
+  bottom: 0%;
+  transform: translate(50%, 50%);
+  background: black;
+  padding:5px;
+}
+
+.CardImage {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.CardImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 576px) {
+  .projectCategories {
+    justify-content: start;
+  }
+}

@@ -70,6 +70,10 @@
   text-shadow: 1px 1px 10px var(--primary-color);
 }
 
+.MapDirection + div {
+  color: var(--tertiary-color);
+}
+
 .ContactUs > div > div > div {
   margin-bottom: 30px;
 }

@@ -290,7 +290,6 @@ Banner  Section
 
 .banner-cntn {
   display: flex;
-  gap: 30px;
   margin-top: 70px;
   margin-left: 50px;
 }
@@ -356,6 +355,17 @@ Banner  Section
   color: white;
   border: 1px solid var(--secondary-color);
   text-wrap: nowrap;
+  animation: moverl 5s linear infinite;
+}
+
+@keyframes moverl {
+  0%,
+  100% {
+    transform: translate(-46%, -53%);
+  }
+  50% {
+    transform: translate(-53%, -46%);
+  }
 }
 
 .banner-pdf > span {
@@ -677,6 +687,17 @@ Footer Section
   z-index: 11;
 }
 
+/* 
+===============
+Projects Section
+===============
+*/
+
+.col-3 {
+  width: 25%;
+  padding: 15px;
+}
+
 @media screen and (max-width: 992px) {
   .title1 {
     font-size: clamp(2.375rem, 1.0577rem + 14.7436vw, 18.75rem);
@@ -696,6 +717,10 @@ Footer Section
 
   .col-25 {
     width: 100%;
+  }
+
+  .col-3 {
+    width: 50%;
   }
 
   /* 
@@ -771,7 +796,7 @@ Footer Section
   .banner-pdf {
     left: 50%;
     top: 75%;
-    font-size:0.8rem;
+    font-size: 0.8rem;
   }
 
   .cntct-me {
@@ -823,6 +848,9 @@ Footer Section
 
 @media screen and (max-width: 768px) {
   .col-40 {
+    width: 100%;
+  }
+  .col-3 {
     width: 100%;
   }
   .cursor {
