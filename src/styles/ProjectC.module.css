@@ -66,7 +66,7 @@
   bottom: 0%;
   transform: translate(50%, 50%);
   background: black;
-  padding:5px;
+  padding: 5px;
 }
 
 .CardImage {
@@ -74,6 +74,8 @@
   height: 200px;
   width: 100%;
   margin-bottom: 30px;
+  background: white;
+  border-radius: 8px;
 }
 
 .CardImage > img {
@@ -81,6 +83,12 @@
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.projectCard > p {
+  font-size: 12px;
+  color: rgb(49, 49, 49);
+  margin-top:10px;
 }
 
 @media screen and (max-width: 576px) {

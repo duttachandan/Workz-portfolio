@@ -1,20 +1,9 @@
 import EE from "./Hero1.png";
 import BeaconOne from "./Hero2.png";
+import IPDC from "./Hero3.png";
+// import Banner2 from "./Hero4.png";
 
 export const projectList = [
-  {
-    projectStack: "ReactNative",
-    projectList: [
-      {
-        projectName: "FitTrack Mobile",
-        projectLink: "https://github.com/example/fittrack-mobile",
-        projectHeader: "Fitness Tracking App",
-        projectImage: "https://source.unsplash.com/600x400/?fitness,app",
-        projectDesc:
-          "A mobile app for tracking workouts, calories, and progress using React Native and Expo.",
-      },
-    ],
-  },
   {
     projectStack: "React",
     projectList: [
@@ -160,13 +149,12 @@ export const projectList = [
           "A Trello-like Kanban board app using Material UI components.",
       },
       {
-        projectName: "MUIDash",
-        projectLink: "https://github.com/example/muidash",
-        projectHeader: "MUI Dashboard",
-        projectImage:
-          "https://source.unsplash.com/600x400/?dashboard,analytics",
+        projectName: "IPDC Finance",
+        projectLink: "https://duttachandan.github.io/Ipdc/",
+        projectHeader: "IPDC Finance",
+        projectImage: IPDC,
         projectDesc:
-          "A professional dashboard UI with charts, tables, and forms.",
+          "IPDC Is a Finance Landing page created using HTML, CSS & JS.",
       },
       {
         projectName: "Formify",
@@ -219,6 +207,19 @@ export const projectList = [
         projectHeader: "Component Showcase",
         projectImage: "https://source.unsplash.com/600x400/?ui,components",
         projectDesc: "A showcase of reusable UI components styled with ShadCN.",
+      },
+    ],
+  },
+  {
+    projectStack: "ReactNative",
+    projectList: [
+      {
+        projectName: "FitTrack Mobile",
+        projectLink: "https://github.com/example/fittrack-mobile",
+        projectHeader: "Fitness Tracking App",
+        projectImage: "https://source.unsplash.com/600x400/?fitness,app",
+        projectDesc:
+          "A mobile app for tracking workouts, calories, and progress using React Native and Expo.",
       },
     ],
   },
