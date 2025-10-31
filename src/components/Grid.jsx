@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import GridCss from "../styles/GridCss.module.css";
 import Figma from "../assets/icons/figma.png";
-import Jquery from "../assets/icons/Jquery.png";
+import Jquery from "../assets/icons/jquery.png";
 import Node from "../assets/icons/node.png";
 import ReactJs from "../assets/icons/React-icon.svg.png";
 import Next from "../assets/icons/nextjs.png";
