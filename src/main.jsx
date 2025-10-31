@@ -10,7 +10,7 @@ import "./index.css";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import NotFound from "./components/notFound";
+import NotFound from "./components/NotFound";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
