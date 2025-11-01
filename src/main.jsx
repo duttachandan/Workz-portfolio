@@ -14,7 +14,7 @@ import NotFound from "./components/NotFound";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="/Workz-portfolio/">
+    <BrowserRouter basename="/">
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<Layout />}>
