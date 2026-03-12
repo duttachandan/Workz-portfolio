@@ -2,12 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image1 from "../assets/img/image1.png";
-import Image2 from "../assets/img/image.png";
-import Image3 from "../assets/img/image3.png";
-import Image4 from "../assets/img/image4.png";
-import Image6 from "../assets/img/image5.png";
-import Image5 from "../assets/img/image6.png";
+import BeaconOne from '../assets/projects/Hero2.png'
+import LuxeShop from "../assets/projects/LuxeShop.png"
+import Eterna from "../assets/projects/Eterna.png"
+import Nestra from "../assets/projects/Nestra.png"
+import RedRiders from "../assets/projects/RedRiders.png"
+import Cara from "../assets/projects/Cara.png"
 
 const Myprojects = () => {
   var settings = {
@@ -40,9 +40,9 @@ const Myprojects = () => {
       <div className="container">
         <Slider {...settings}>
           <div>
-            <a href="" className="project-card">
+            <a target="_blank" href="https://www.beacononecapital.com/" className="project-card">
               <div className="project-card-img">
-                <img src={Image6} alt="" />
+                <img src={BeaconOne} alt="" />
                 <span role="button" className="button">
                   <span className="button__icon-wrapper">
                     <svg
@@ -74,19 +74,17 @@ const Myprojects = () => {
                 </span>
               </div>
               <div className="project-card-desc">
-                <h3>EE</h3>
+                <h3>Beacon One Capital Live Project</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quibusdam blanditiis delectus tempora beatae voluptate quam
-                  corrupti repellat, maiores officia eveniet.
+                  Beacon One Capital is a financial services website showcasing investment solutions, capital advisory, and strategic funding opportunities through a clean, professional interface.
                 </p>
               </div>
             </a>
           </div>
           <div>
-            <a href="" className="project-card">
+            <a target="_blank" href="https://redriderssports.com/" className="project-card">
               <div className="project-card-img">
-                <img src={Image1} alt="" />
+                <img src={RedRiders} alt="" />
                 <span role="button" className="button">
                   <span className="button__icon-wrapper">
                     <svg
@@ -118,19 +116,17 @@ const Myprojects = () => {
                 </span>
               </div>
               <div className="project-card-desc">
-                <h3>EE</h3>
+                <h3>Red Riders Sport Live Project</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quibusdam blanditiis delectus tempora beatae voluptate quam
-                  corrupti repellat, maiores officia eveniet.
+                  An engaging sports and adventure themed website interface built with structured navigation, action-driven sections, and strong visual hierarchy to enhance user interaction.
                 </p>
               </div>
             </a>
           </div>
           <div>
-            <a href="" className="project-card">
+            <a target="_blank" href="https://duttachandan.github.io/EcommerceUsingContext/" className="project-card">
               <div className="project-card-img">
-                <img src={Image2} alt="" />
+                <img src={Cara} alt="" />
                 <span className="button" role="button">
                   <span className="button__icon-wrapper">
                     <svg
@@ -162,19 +158,17 @@ const Myprojects = () => {
                 </span>
               </div>
               <div className="project-card-desc">
-                <h3>EE</h3>
+                <h3>Cara</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quibusdam blanditiis delectus tempora beatae voluptate quam
-                  corrupti repellat, maiores officia eveniet.
+                  A modern e-commerce web application built using React Context API for efficient global state management, featuring dynamic product listings, cart functionality, and a responsive user interface.
                 </p>
               </div>
             </a>
           </div>
           <div>
-            <a href="" className="project-card">
+            <a target="_blank" href="https://developerr0nit.github.io/NESTRA/" className="project-card">
               <div className="project-card-img">
-                <img src={Image3} alt="" />
+                <img src={Nestra} alt="" />
                 <span className="button" role="button">
                   <span className="button__icon-wrapper">
                     <svg
@@ -206,19 +200,17 @@ const Myprojects = () => {
                 </span>
               </div>
               <div className="project-card-desc">
-                <h3>EE</h3>
+                <h3>NESTRA</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quibusdam blanditiis delectus tempora beatae voluptate quam
-                  corrupti repellat, maiores officia eveniet.
+                  This project showcases a sleek and responsive website interface built with modern design principles, highlighting smooth navigation, visually appealing sections, and optimized user experience.
                 </p>
               </div>
             </a>
           </div>
           <div>
-            <a href="" className="project-card">
+            <a target="_blank" href="https://ni-sha-nt.github.io/Eterna/" className="project-card">
               <div className="project-card-img">
-                <img src={Image4} alt="" />
+                <img src={Eterna} alt="" />
                 <span className="button" role="button">
                   <span className="button__icon-wrapper">
                     <svg
@@ -250,19 +242,17 @@ const Myprojects = () => {
                 </span>
               </div>
               <div className="project-card-desc">
-                <h3>EE</h3>
+                <h3>Eterna</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quibusdam blanditiis delectus tempora beatae voluptate quam
-                  corrupti repellat, maiores officia eveniet.
+                  Eterna is a modern and elegant website interface designed with a clean layout, smooth visual hierarchy, and responsive design principles to create a premium user experience.
                 </p>
               </div>
             </a>
           </div>
           <div>
-            <a href="" className="project-card">
+            <a target="_blank" href="https://sdey1122.github.io/LuxeShop-SD/" className="project-card">
               <div className="project-card-img">
-                <img src={Image5} alt="" />
+                <img src={LuxeShop} alt="" />
                 <span className="button" role="button">
                   <span className="button__icon-wrapper">
                     <svg
@@ -294,11 +284,11 @@ const Myprojects = () => {
                 </span>
               </div>
               <div className="project-card-desc">
-                <h3>EE</h3>
+                <h3>LuxeShop</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quibusdam blanditiis delectus tempora beatae voluptate quam
-                  corrupti repellat, maiores officia eveniet.
+                  LuxeShop is a clean and visually appealing online jewelry store UI
+                  that highlights premium product collections with responsive Bootstrap
+                  components and modern design aesthetics.
                 </p>
               </div>
             </a>

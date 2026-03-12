@@ -384,8 +384,11 @@ Banner  Section
 
 .text-glow {
   color: var(--primary-color);
-  text-shadow: 0 0 1px var(--primary-color), 0 0 0px var(--primary-color),
-    0 0 100px var(--primary-color), 0 0 10px var(--primary-color),
+  text-shadow:
+    0 0 1px var(--primary-color),
+    0 0 0px var(--primary-color),
+    0 0 100px var(--primary-color),
+    0 0 10px var(--primary-color),
     0 0 1px var(--primary-color);
   transition: text-shadow 0.3s ease;
 }
@@ -493,8 +496,11 @@ section.knw-abt-me,
   border-radius: 50rem;
   border: 1.5px solid var(--tertiary-color);
   color: var(--primary-color);
-  text-shadow: 0 0 1px var(--primary-color), 0 0 0px var(--primary-color),
-    0 0 100px var(--primary-color), 0 0 10px var(--primary-color),
+  text-shadow:
+    0 0 1px var(--primary-color),
+    0 0 0px var(--primary-color),
+    0 0 100px var(--primary-color),
+    0 0 10px var(--primary-color),
     0 0 1px var(--primary-color);
   position: absolute;
   left: 50%;
@@ -575,6 +581,10 @@ MYProject Section
   padding: 80px 0;
 }
 
+.project-grid {
+  align-items: stretch;
+}
+
 .project-card {
   max-width: 800px;
   padding: 30px;
@@ -599,6 +609,10 @@ MYProject Section
 
 .project-card-desc {
   padding: 0 60px;
+}
+
+.project-card-desc h3 {
+  margin-bottom: 20px;
 }
 
 /* From Uiverse.io by Creatlydev */
@@ -739,7 +753,9 @@ Projects Section
     right: 0;
     padding: 20px 0;
     height: 100vh;
-    transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition:
+      width 0.3s ease-in-out,
+      opacity 0.3s ease-in-out;
     margin-left: 0 !important;
     background: black;
   }

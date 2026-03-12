@@ -107,6 +107,9 @@ const Projects = () => {
                       </a>
                     </div>
                     <h3>{project.projectName}</h3>
+                    {project.ProjectStatus && project.ProjectStatus == "Under Production" ? <div
+                      style={{ marginTop: `10px`, color: `red` }}
+                    >{project.ProjectStatus}</div> : <></>}
                     <p>{project.projectDesc}</p>
                   </div>
                 </div>

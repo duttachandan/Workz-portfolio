@@ -57,8 +57,9 @@
   width: 100%;
   overflow: hidden;
   text-align: center;
-  margin: 20px auto;
+  margin: 20px auto 0;
   min-height: 300px;
+  height: 100%;
 }
 
 .CardImage > a {
@@ -87,8 +88,8 @@
 
 .projectCard > p {
   font-size: 12px;
-  color: rgb(49, 49, 49);
-  margin-top:10px;
+  color: rgb(134, 134, 134);
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 576px) {

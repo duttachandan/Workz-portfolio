@@ -77,7 +77,7 @@ const Header = () => {
                   Projects +
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   onClick={handleNavLinks}
                   className={`nav-links ${({ isActive }) =>
@@ -86,8 +86,8 @@ const Header = () => {
                 >
                   About +
                 </NavLink>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <NavLink
                   onClick={handleNavLinks}
                   className={`nav-links ${({ isActive }) =>
@@ -97,7 +97,7 @@ const Header = () => {
                 >
                   Contact Us +
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
             <div className="nav-btn" ref={navBtnRef}>
               <a

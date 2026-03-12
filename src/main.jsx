@@ -7,9 +7,9 @@ import Layout from "./Layout/Layout";
 import Loader from "./components/Loader";
 import App from "./pages/App";
 import "./index.css";
-import About from "./pages/About";
+// import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
 import NotFound from "./components/NotFound";
 
 createRoot(document.getElementById("root")).render(
@@ -19,9 +19,9 @@ createRoot(document.getElementById("root")).render(
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<App />} />
-            <Route path="about" element={<About />} />
+            {/* <Route path="about" element={<About />} /> */}
             <Route path="projects" element={<Projects />} />
-            <Route path="contact" element={<Contact />} />
+            {/* <Route path="contact" element={<Contact />} /> */}
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>

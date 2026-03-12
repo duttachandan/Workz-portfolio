@@ -17,9 +17,9 @@ const Banner = () => {
   const [spaceValue, setSpaceValue] = useState();
   const addText = useRef();
 
-  const AboutMe = `I'm a Frontend Developer with 2.5+ years of experience building modern web apps using React.js, Node.js, MongoDB, and JavaScript. I'm passionate about clean, user-friendly interfaces and love turning Figma designs into responsive code.
+  const AboutMe = `I'm a MERN Stack Developer with 3+ years of experience building modern web apps using React.js, Node.js, MongoDB, and JavaScript/Typescript. I'm passionate about clean, user-friendly interfaces and love turning Figma designs into responsive code.
 
-Coming from a family of entrepreneurs, I'm always seeking new challenges and learning opportunities. Currently, I'm exploring NestJS and improving my DSA skills. I work as a Technical Analyst at Webskitters Academy, and my long-term goal is to launch a startup that promotes a healthier, more balanced work culture.
+Coming from a family of BuisnessMan, I'm always seeking new challenges and learning opportunities. Currently, I'm exploring NestJS and improving my DSA skills. I used to work as a Technical Analyst at Webskitters Academy currently seeking new job role, and my long-term goal is to launch a startup that promotes a healthier, more balanced work culture.
 
 Let’s connect!`;
 

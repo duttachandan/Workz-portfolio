@@ -1,83 +1,49 @@
 import EE from "./Hero1.png";
 import BeaconOne from "./Hero2.png";
 import IPDC from "./Hero3.png";
-// import Banner2 from "./Hero4.png";
+import Portfolio from "./Hero4.png"
+import WineVerse from "./wineverse.png"
+import WineShop from "./WineShop.png"
+import Foodie from "./Foodie.png"
+import LuxeShop from "./LuxeShop.png"
+import Eterna from "./Eterna.png"
+import Nestra from "./Nestra.png"
+import IndiGlam from "./IndiGlam.png"
+import RedRiders from "./RedRiders.png"
+import Cara from "./Cara.png"
 
 export const projectList = [
+
   {
     projectStack: "React",
     projectList: [
       {
+        projectName: "Red Riders Live Project",
+        projectLink: "https://redriderssports.com/",
+        projectHeader: "SpaceHub",
+        ProjectStatus: "Completed",
+        projectImage: RedRiders,
+        projectDesc:
+          "Innovative e-commerce site for space exploration gear, crafted with React and Tailwind CSS.",
+      },
+      {
         projectName: "TCD-Space",
         projectLink: "https://duttachandan.github.io/TCD-Space/",
         projectHeader: "SpaceHub",
+        ProjectStatus: "Completed",
         projectImage:
           "https://duttachandan.github.io/TCD-Space/assets/satelite1-D0UNUTYe.jpg",
         projectDesc:
           "Innovative e-commerce site for space exploration gear, crafted with React and Tailwind CSS.",
       },
       {
-        projectName: "Blogify",
-        projectLink: "https://duttachandan.github.io/EcommerceUsingContext/",
-        projectHeader: "Modern Blogging Platform",
-        projectImage:
-          "https://duttachandan.github.io/EcommerceUsingContext/assets/hero4-CMYQMgTw.png",
+        projectName: "React Portfolio",
+        projectLink: "https://chandan-portfolio-workz.netlify.app/",
+        projectHeader: "React Portfolio",
+        projectImage: Portfolio,
+        ProjectStatus: "Completed",
         projectDesc:
-          "React-powered e-commerce site with seamless responsiveness, enhanced by Tailwind CSS.",
-      },
-      {
-        projectName: "EventHub",
-        projectLink: "https://github.com/example/eventhub",
-        projectHeader: "Event Management Website",
-        projectImage: "https://source.unsplash.com/600x400/?event,conference",
-        projectDesc:
-          "Browse, book, and manage events seamlessly with a modern UI.",
-      },
-      {
-        projectName: "CryptoWatch",
-        projectLink: "https://github.com/example/cryptowatch",
-        projectHeader: "Cryptocurrency Dashboard",
-        projectImage:
-          "https://source.unsplash.com/600x400/?cryptocurrency,dashboard",
-        projectDesc:
-          "Live crypto price tracking and market insights with interactive charts.",
-      },
-    ],
-  },
-  {
-    projectStack: "MERN",
-    projectList: [
-      {
-        projectName: "TaskManager Pro",
-        projectLink: "https://github.com/example/taskmanager-pro",
-        projectHeader: "Task Management Web App",
-        projectImage: "https://source.unsplash.com/600x400/?tasks,productivity",
-        projectDesc:
-          "A full MERN stack app for managing personal and team tasks.",
-      },
-      {
-        projectName: "EduConnect",
-        projectLink: "https://github.com/example/educonnect",
-        projectHeader: "Online Learning Platform",
-        projectImage: "https://source.unsplash.com/600x400/?education,online",
-        projectDesc:
-          "A learning management system for hosting courses and student collaboration.",
-      },
-      {
-        projectName: "ShopCart",
-        projectLink: "https://github.com/example/shopcart",
-        projectHeader: "MERN E-Commerce Platform",
-        projectImage: "https://source.unsplash.com/600x400/?shopping,cart",
-        projectDesc:
-          "A scalable e-commerce solution with authentication and payment integration.",
-      },
-      {
-        projectName: "Healthify",
-        projectLink: "https://github.com/example/healthify",
-        projectHeader: "Healthcare Appointment System",
-        projectImage: "https://source.unsplash.com/600x400/?health,doctor",
-        projectDesc:
-          "Book and manage doctor appointments with real-time notifications.",
+          "Innovative e-commerce site for space exploration gear, crafted with React and Tailwind CSS.",
       },
     ],
   },
@@ -88,18 +54,103 @@ export const projectList = [
         projectName: "TechGears",
         projectLink: "https://duttachandan.github.io/TechGears/",
         projectHeader: "TechGear Hub",
+        ProjectStatus: "Completed",
         projectImage:
           "https://duttachandan.github.io/TechGears/assets/img-1.webp",
         projectDesc:
           "TechGear Hub is at the forefront of technology innovation, curating a collection of the latest gadgets and accessories.",
       },
       {
-        projectName: "BeaconOne",
-        projectLink: "https://duttachandan.github.io/Beacon-one/",
+        projectName: "BeaconOne Live Project",
+        projectLink: "https://www.beacononecapital.com/",
         projectHeader: "TechGear Hub",
+        ProjectStatus: "Completed",
         projectImage: BeaconOne,
         projectDesc:
-          "TechGear Hub is at the forefront of technology innovation, curating a collection of the latest gadgets and accessories.",
+          `A Live project a property related website made using Wordpress, 
+          contributed in the frontend(HTML, CSS(Bootstrap) & JS) part`,
+      },
+      {
+        projectName: "EE Glass",
+        projectLink: "https://duttachandan.github.io/EE/",
+        projectHeader: "MUI Kanban Board",
+        ProjectStatus: "Under Production",
+        projectImage: EE,
+        projectDesc:
+          "A one Page application created using HTML, CSS(Bootstrap) & JS",
+      },
+      {
+        projectName: "IPDC Finance",
+        projectLink: "https://duttachandan.github.io/Ipdc/",
+        projectHeader: "IPDC Finance",
+        ProjectStatus: "Under Production",
+        projectImage: IPDC,
+        projectDesc:
+          "IPDC Is a Finance Landing page created using HTML, CSS(Bootstrap) & JS.",
+      },
+      {
+        projectName: "Wineverse",
+        projectLink: "https://wineverse.vercel.app/",
+        projectHeader: "MUI Form Builder",
+        projectImage: WineVerse,
+        projectDesc:
+          "WineVerse A Multi Page Wine Shop Website created using HTML, CSS(Bootstrap) & JS.",
+      },
+      {
+        projectName: "Wine Shop",
+        projectLink: "https://divyamoma-ctrl.github.io/WineShop/",
+        projectHeader: "Online Bookstore UI",
+        projectImage: WineShop,
+        projectDesc: "Wine Shop A Multi Page Wine Shop Website created using HTML, CSS(Bootstrap) & JS.",
+      },
+      {
+        projectName: "Foodie",
+        projectLink: "https://tanimaghosh31082001.github.io/food_website/",
+        projectHeader: "Online Bookstore UI",
+        projectImage: Foodie,
+        projectDesc: "An online FoodStore interface built with HTML, CSS(Bootstrap) & JS.",
+      },
+      {
+        projectName: "Luxe Shop",
+        projectLink: "https://sdey1122.github.io/LuxeShop-SD/",
+        projectHeader: "Online Bookstore UI",
+        projectImage: LuxeShop,
+        projectDesc: "An online Beauty Product Shop interface built with Bootstrap.",
+      },
+      {
+        projectName: "Eterna",
+        projectLink: "https://ni-sha-nt.github.io/Eterna/",
+        projectHeader: "Online Bookstore UI",
+        projectImage: Eterna,
+        projectDesc: "An online jewelry website interface built using Bootstrap.",
+      },
+      {
+        projectName: "Nestra",
+        projectLink: "https://developerr0nit.github.io/NESTRA/",
+        projectHeader: "Online Bookstore UI",
+        projectImage: Nestra,
+        projectDesc: "An online Real Estate Web Application interface built with Bootstrap.",
+      },
+      {
+        projectName: "IndiGlam",
+        projectLink: "https://indiglam.vercel.app/",
+        projectHeader: "Online Bookstore UI",
+        projectImage: IndiGlam,
+        projectDesc: "An online Beauty Product Shop  interface built with Bootstrap.",
+      },
+    ],
+  },
+  {
+    projectStack: "MERN",
+    projectList: [
+      {
+        projectName: "Doctors Hub",
+        projectLink: "https://github.com/duttachandan/refreshTokenauth",
+        projectHeader: "Doctor Appointment Application",
+        ProjectStatus: "Under Production",
+        projectImage: "https://imgs.search.brave.com/PKKQF98z5aj1V_a9fYJA5Sl0IG4LRzn8C948L6UZ_hM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzQ0LzM3/Lzc2LzQ0Mzc3Njc3/N2ViNzlmYzQ5OWE1/YzEzNDVkNzNjN2Ux/LmpwZw",
+        projectDesc:
+          "A full MERN stack app for managing Doctors Appointments.",
       },
     ],
   },
@@ -107,119 +158,35 @@ export const projectList = [
     projectStack: "Tailwind",
     projectList: [
       {
-        projectName: "TailwindPortfolio",
-        projectLink: "https://github.com/example/tailwindportfolio",
+        projectName: "Cara Ecommerce Application",
+        projectLink: "https://duttachandan.github.io/EcommerceUsingContext/",
         projectHeader: "Modern Portfolio",
-        projectImage: "https://source.unsplash.com/600x400/?portfolio,tailwind",
+        projectImage: Cara,
         projectDesc:
-          "A modern developer portfolio built entirely with Tailwind CSS.",
+          "A modern Ecommerce Website created using Tailwind.",
       },
       {
-        projectName: "LandingCraft",
-        projectLink: "https://github.com/example/landingcraft",
-        projectHeader: "Landing Page Kit",
-        projectImage: "https://source.unsplash.com/600x400/?landing,tailwind",
-        projectDesc: "Reusable landing page layouts styled with Tailwind CSS.",
-      },
-      {
-        projectName: "ShopWind",
-        projectLink: "https://github.com/example/shopwind",
-        projectHeader: "Tailwind E-Commerce",
-        projectImage: "https://source.unsplash.com/600x400/?shopping,tailwind",
-        projectDesc: "A sleek e-commerce UI kit with Tailwind CSS components.",
-      },
-      {
-        projectName: "DashWind",
-        projectLink: "https://github.com/example/dashwind",
-        projectHeader: "Tailwind Dashboard",
-        projectImage: "https://source.unsplash.com/600x400/?dashboard,tailwind",
-        projectDesc: "A responsive admin dashboard built with Tailwind CSS.",
+        projectName: "Red Riders Live Project",
+        projectLink: "https://redriderssports.com/",
+        projectHeader: "SpaceHub",
+        ProjectStatus: "Completed",
+        projectImage: RedRiders,
+        projectDesc:
+          "Innovative e-commerce site for space exploration gear, crafted with React and Tailwind CSS.",
       },
     ],
   },
   {
-    projectStack: "HtmlCSS",
+    projectStack: "NODE",
     projectList: [
       {
-        projectName: "EE Glass",
-        projectLink: "https://duttachandan.github.io/EE/",
-        projectHeader: "MUI Kanban Board",
-        projectImage: EE,
+        projectName: "Insta Clone",
+        projectLink: "https://github.com/duttachandan/node_insta",
+        projectHeader: "Insta Clone Under Production",
+        ProjectStatus: "Under Production",
+        projectImage: "https://imgs.search.brave.com/PKKQF98z5aj1V_a9fYJA5Sl0IG4LRzn8C948L6UZ_hM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzQ0LzM3/Lzc2LzQ0Mzc3Njc3/N2ViNzlmYzQ5OWE1/YzEzNDVkNzNjN2Ux/LmpwZw",
         projectDesc:
-          "A Trello-like Kanban board app using Material UI components.",
-      },
-      {
-        projectName: "IPDC Finance",
-        projectLink: "https://duttachandan.github.io/Ipdc/",
-        projectHeader: "IPDC Finance",
-        projectImage: IPDC,
-        projectDesc:
-          "IPDC Is a Finance Landing page created using HTML, CSS & JS.",
-      },
-      {
-        projectName: "Formify",
-        projectLink: "https://github.com/example/formify",
-        projectHeader: "MUI Form Builder",
-        projectImage: "https://source.unsplash.com/600x400/?forms,ui",
-        projectDesc:
-          "A form builder with validation using MUI components and React Hook Form.",
-      },
-      {
-        projectName: "BookStore",
-        projectLink: "https://github.com/example/bookstore",
-        projectHeader: "Online Bookstore UI",
-        projectImage: "https://source.unsplash.com/600x400/?books,store",
-        projectDesc: "An online bookstore interface built with Material UI.",
-      },
-    ],
-  },
-  {
-    projectStack: "ShadCN",
-    projectList: [
-      {
-        projectName: "ShadDash",
-        projectLink: "https://github.com/example/shaddash",
-        projectHeader: "Admin Dashboard",
-        projectImage: "https://source.unsplash.com/600x400/?dashboard,admin",
-        projectDesc:
-          "A modern admin dashboard UI built using ShadCN components.",
-      },
-      {
-        projectName: "ShadStore",
-        projectLink: "https://github.com/example/shadstore",
-        projectHeader: "E-Commerce Storefront",
-        projectImage: "https://source.unsplash.com/600x400/?ecommerce,store",
-        projectDesc:
-          "A responsive storefront with product listing and cart features.",
-      },
-      {
-        projectName: "ShadDocs",
-        projectLink: "https://github.com/example/shaddocs",
-        projectHeader: "Documentation Site",
-        projectImage:
-          "https://source.unsplash.com/600x400/?documentation,website",
-        projectDesc:
-          "A clean and fast documentation site template using ShadCN.",
-      },
-      {
-        projectName: "ShadUI",
-        projectLink: "https://github.com/example/shadui",
-        projectHeader: "Component Showcase",
-        projectImage: "https://source.unsplash.com/600x400/?ui,components",
-        projectDesc: "A showcase of reusable UI components styled with ShadCN.",
-      },
-    ],
-  },
-  {
-    projectStack: "ReactNative",
-    projectList: [
-      {
-        projectName: "FitTrack Mobile",
-        projectLink: "https://github.com/example/fittrack-mobile",
-        projectHeader: "Fitness Tracking App",
-        projectImage: "https://source.unsplash.com/600x400/?fitness,app",
-        projectDesc:
-          "A mobile app for tracking workouts, calories, and progress using React Native and Expo.",
+          "A Backend for Basic Insta Application, Login/Signup",
       },
     ],
   },
