@@ -13,40 +13,6 @@ import RedRiders from "./RedRiders.png"
 import Cara from "./Cara.png"
 
 export const projectList = [
-
-  {
-    projectStack: "React",
-    projectList: [
-      {
-        projectName: "Red Riders Live Project",
-        projectLink: "https://redriderssports.com/",
-        projectHeader: "SpaceHub",
-        ProjectStatus: "Completed",
-        projectImage: RedRiders,
-        projectDesc:
-          "Innovative e-commerce site for space exploration gear, crafted with React and Tailwind CSS.",
-      },
-      {
-        projectName: "TCD-Space",
-        projectLink: "https://duttachandan.github.io/TCD-Space/",
-        projectHeader: "SpaceHub",
-        ProjectStatus: "Completed",
-        projectImage:
-          "https://duttachandan.github.io/TCD-Space/assets/satelite1-D0UNUTYe.jpg",
-        projectDesc:
-          "Innovative e-commerce site for space exploration gear, crafted with React and Tailwind CSS.",
-      },
-      {
-        projectName: "React Portfolio",
-        projectLink: "https://chandan-portfolio-workz.netlify.app/",
-        projectHeader: "React Portfolio",
-        projectImage: Portfolio,
-        ProjectStatus: "Completed",
-        projectDesc:
-          "Innovative e-commerce site for space exploration gear, crafted with React and Tailwind CSS.",
-      },
-    ],
-  },
   {
     projectStack: "Bootstrap",
     projectList: [
@@ -137,6 +103,39 @@ export const projectList = [
         projectHeader: "Online Bookstore UI",
         projectImage: IndiGlam,
         projectDesc: "An online Beauty Product Shop  interface built with Bootstrap.",
+      },
+    ],
+  },
+  {
+    projectStack: "React",
+    projectList: [
+      {
+        projectName: "Red Riders Live Project",
+        projectLink: "https://redriderssports.com/",
+        projectHeader: "SpaceHub",
+        ProjectStatus: "Completed",
+        projectImage: RedRiders,
+        projectDesc:
+          "Innovative e-commerce site for space exploration gear, crafted with React and Tailwind CSS.",
+      },
+      {
+        projectName: "TCD-Space",
+        projectLink: "https://duttachandan.github.io/TCD-Space/",
+        projectHeader: "SpaceHub",
+        ProjectStatus: "Completed",
+        projectImage:
+          "https://duttachandan.github.io/TCD-Space/assets/satelite1-D0UNUTYe.jpg",
+        projectDesc:
+          "Innovative e-commerce site for space exploration gear, crafted with React and Tailwind CSS.",
+      },
+      {
+        projectName: "React Portfolio",
+        projectLink: "https://chandan-portfolio-workz.netlify.app/",
+        projectHeader: "React Portfolio",
+        projectImage: Portfolio,
+        ProjectStatus: "Completed",
+        projectDesc:
+          "Innovative e-commerce site for space exploration gear, crafted with React and Tailwind CSS.",
       },
     ],
   },
