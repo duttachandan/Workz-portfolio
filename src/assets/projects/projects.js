@@ -70,24 +70,24 @@ export const projectList = [
           `A Live project a property related website made using Wordpress, 
           contributed in the frontend(HTML, CSS(Bootstrap) & JS) part`,
       },
-      {
-        projectName: "EE Glass",
-        projectLink: "https://duttachandan.github.io/EE/",
-        projectHeader: "MUI Kanban Board",
-        ProjectStatus: "Under Production",
-        projectImage: EE,
-        projectDesc:
-          "A one Page application created using HTML, CSS(Bootstrap) & JS",
-      },
-      {
-        projectName: "IPDC Finance",
-        projectLink: "https://duttachandan.github.io/Ipdc/",
-        projectHeader: "IPDC Finance",
-        ProjectStatus: "Under Production",
-        projectImage: IPDC,
-        projectDesc:
-          "IPDC Is a Finance Landing page created using HTML, CSS(Bootstrap) & JS.",
-      },
+      // {
+      //   projectName: "EE Glass",
+      //   projectLink: "https://duttachandan.github.io/EE/",
+      //   projectHeader: "MUI Kanban Board",
+      //   ProjectStatus: "Under Production",
+      //   projectImage: EE,
+      //   projectDesc:
+      //     "A one Page application created using HTML, CSS(Bootstrap) & JS",
+      // },
+      // {
+      //   projectName: "IPDC Finance",
+      //   projectLink: "https://duttachandan.github.io/Ipdc/",
+      //   projectHeader: "IPDC Finance",
+      //   ProjectStatus: "Under Production",
+      //   projectImage: IPDC,
+      //   projectDesc:
+      //     "IPDC Is a Finance Landing page created using HTML, CSS(Bootstrap) & JS.",
+      // },
       {
         projectName: "Wineverse",
         projectLink: "https://wineverse.vercel.app/",
